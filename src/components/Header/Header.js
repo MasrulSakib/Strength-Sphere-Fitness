@@ -9,8 +9,8 @@ const Header = () => {
 
             <div className='logo'>
                 <p className='logo-type'><FontAwesomeIcon icon={faDumbbell} /></p>
-                <span className="header-text">Strength</span>
-                <span className="header-text2">Sphere</span>
+                <span className="header-text">STRENGTH</span>
+                <span className="header-text2">SPHERE</span>
             </div>
             <div>
                 <a href="/home">Home</a>

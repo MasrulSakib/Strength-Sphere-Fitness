@@ -1,9 +1,10 @@
 .gymplan-container {
     width: 305px;
     height: 510px;
-    border: 1px solid #95A0A7;
+    /* border: 2px solid rgb(189, 149, 102); */
     border-radius: 8px;
     position: relative;
+    background-color: bisque;
 }
 
 .gymplan-container img {
