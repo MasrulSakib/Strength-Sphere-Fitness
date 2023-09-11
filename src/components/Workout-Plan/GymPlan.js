@@ -9,8 +9,9 @@ const GymPlan = ({ card }) => {
             <div className='gymplan-text'>
                 <h3>{name}</h3>
                 <h4>Age required: {age}</h4>
-                <small>{about.slice(0, 150)}...</small>
+                <small>{about.slice(0, 150)}...</small><br />
             </div>
+            <button className='btn-add'>Add To List</button>
         </div>
     );
 };

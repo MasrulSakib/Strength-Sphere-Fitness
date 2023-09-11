@@ -25,7 +25,7 @@ const Gym = () => {
                 }
             </div>
             <div className='activity-container'>
-                <div className='activity-header'>
+                <div className='inner-activity'>
                     <h2 >Activity Details</h2>
                     <div className='icon-config'>
                         <p className='user'><FontAwesomeIcon icon={faCircleUser} size="lg" /> </p>
@@ -35,12 +35,24 @@ const Gym = () => {
                     <div>
                         <h3>Adjust Your Time</h3>
                         <div className='activity-time'>
-                            <button>10</button>
-                            <button>15</button>
-                            <button>20</button>
-                            <button>25</button>
-                            <button>30</button>
+                            <button>10s</button>
+                            <button>15s</button>
+                            <button>20s</button>
+                            <button>25s</button>
+                            <button>30s</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Workout Time Planing</h3>
+                        <div className='addTime'>
+                            <p>Workout Time: </p>
+                        </div>
+                        <div className='breakTime'>
+                            <p>Break Time: </p>
+                        </div>
 
+                        <div className='completed'>
+                            <h3>Workout Complete</h3>
                         </div>
                     </div>
                 </div>

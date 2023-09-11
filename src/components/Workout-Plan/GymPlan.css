@@ -1,9 +1,11 @@
 .gymplan-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
     width: 305px;
     height: 510px;
     /* border: 2px solid rgb(189, 149, 102); */
     border-radius: 8px;
-    position: relative;
     background-color: bisque;
 }
 
@@ -17,4 +19,21 @@
 .gymplan-text {
     padding: 15px;
     line-height: 15px;
+}
+
+.btn-add {
+    color: aliceblue;
+    font-size: 18px;
+    border: none;
+    margin: 0 40px;
+    background-color: black;
+    border-radius: 8px;
+    width: 225px;
+    height: 40px;
+}
+
+.btn-add:hover {
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid black;
 }

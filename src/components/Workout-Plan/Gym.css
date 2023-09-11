@@ -19,13 +19,13 @@
 
 }
 
-.activity-header h2 {
+.inner-activity h2 {
     display: flex;
     justify-content: center;
     text-decoration: underline;
 }
 
-.activity-header h3 {
+.inner-activity h3 {
     text-align: center;
 }
 
@@ -53,6 +53,7 @@
     height: 88px;
     width: 320px;
     border-radius: 10px;
+    margin-bottom: 70px;
 }
 
 .activity-time button {
@@ -60,10 +61,57 @@
     border: none;
     background-color: bisque;
     border-radius: 30px;
-    padding: 0 16px;
+    padding: 0 11px;
     margin: 0 5px;
+    font-size: 15px;
 }
+
 
 .activity-time button:hover {
     background-color: aliceblue;
+}
+
+.addTime {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    margin: 20px 0;
+    padding: 0 20px;
+    height: 55px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.breakTime {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 20px;
+    background-color: black;
+    color: aliceblue;
+    height: 55px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.completed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 66px 0;
+    padding: 0 20px;
+    background-color: black;
+    color: aliceblue;
+    height: 55px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.completed:hover {
+
+    background-color: aliceblue;
+    color: black;
+
+
 }
