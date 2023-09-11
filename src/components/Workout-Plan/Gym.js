@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import GymPlan from './GymPlan';
+import "./Gym.css"
 
 const Gym = () => {
     const [cards, setCard] = useState([]);
@@ -10,14 +11,16 @@ const Gym = () => {
     }, [])
 
     return (
-        <div className='gym-container'>
-            {
-                cards.map(card =>
-                    <GymPlan key={card.id}
-                        card={card}
-                    >
-                    </GymPlan>)
-            }
+        <div className='gym'>
+            <div className='gym-container'>
+                {
+                    cards.map(card =>
+                        <GymPlan key={card.id}
+                            card={card}
+                        >
+                        </GymPlan>)
+                }
+            </div>
         </div>
     );
 };

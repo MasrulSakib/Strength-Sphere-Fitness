@@ -1,0 +1,13 @@
+.gym {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin: 33px 66px;
+}
+
+.gym-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 44px;
+
+    margin: 55px 0;
+}
