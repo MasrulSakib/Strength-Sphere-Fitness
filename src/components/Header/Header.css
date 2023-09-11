@@ -1,0 +1,46 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    height: 80px;
+    background-color: #000033;
+    align-items: center;
+}
+
+.header-container a {
+    color: white;
+    text-decoration: none;
+    padding-left: 33px;
+}
+
+.header-container a:hover {
+    color: bisque;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.header-text {
+    color: white;
+    text-decoration: bisque underline;
+}
+
+.header-text2 {
+    color: bisque;
+    text-decoration: white underline;
+    margin-left: 10px;
+    font-family: 'Prata', serif;
+}
+
+.logo-type {
+    color: bisque;
+    margin-right: 10px;
+    font-size: 30px;
+
+}
