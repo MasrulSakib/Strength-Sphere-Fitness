@@ -1,0 +1,104 @@
+.activity-container {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    height: 100%;
+
+}
+
+.inner-activity h2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.inner-activity h3 {
+    text-align: center;
+}
+
+.icon-config {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+}
+
+.location {
+    margin-left: 20px;
+}
+
+.user {
+    font-size: 25px;
+    margin-right: 8px;
+}
+
+.activity-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 88px;
+    width: 320px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.activity-time button {
+    height: 45px;
+    border: none;
+    background-color: bisque;
+    border-radius: 30px;
+    padding: 0 11px;
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+
+.activity-time button:hover {
+    background-color: aliceblue;
+}
+
+.addTime {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    margin: 20px 0;
+    padding: 0 20px;
+    height: 55px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.breakTime {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 20px;
+    background-color: black;
+    color: aliceblue;
+    height: 55px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.completed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 66px 0;
+    padding: 0 20px;
+    background-color: black;
+    color: aliceblue;
+    height: 55px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.completed:hover {
+
+    background-color: aliceblue;
+    color: black;
+
+
+}
