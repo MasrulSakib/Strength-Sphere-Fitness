@@ -11,3 +11,8 @@
     row-gap: 44px;
     margin: 55px 0;
 }
+
+.activity-container {
+    padding: 0 25px;
+    background-color: bisque;
+}

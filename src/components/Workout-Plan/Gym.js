@@ -28,7 +28,7 @@ const Gym = () => {
                         </GymPlan>)
                 }
             </div>
-            <div>
+            <div className='activity-container'>
                 {
                     <Activity></Activity>
                 }

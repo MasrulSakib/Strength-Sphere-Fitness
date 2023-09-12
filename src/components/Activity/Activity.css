@@ -1,12 +1,10 @@
-.activity-container {
-    display: flex;
-    justify-content: center;
-    background-color: bisque;
-    height: 100%;
-
+.inner-activity {
+    position: sticky;
+    top: 0;
 }
 
 .inner-activity h2 {
+
     display: flex;
     justify-content: center;
     text-decoration: underline;
@@ -30,6 +28,26 @@
 .user {
     font-size: 25px;
     margin-right: 8px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    color: bisque;
+    background-color: black;
+    width: 320px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.user-info div {
+    padding: 10px 15px;
+}
+
+.user-text {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: overline;
 }
 
 .activity-time {
