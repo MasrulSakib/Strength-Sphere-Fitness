@@ -12,6 +12,11 @@ const Gym = () => {
             .then(data => setCard(data))
     }, [])
 
+    useEffect(() => {
+
+    }, [])
+
+
     return (
         <div className='gym'>
             <div className='gym-container'>

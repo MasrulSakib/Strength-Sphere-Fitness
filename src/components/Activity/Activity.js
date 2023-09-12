@@ -28,7 +28,7 @@ const Activity = (props) => {
                 <div>
                     <h3>Workout Time Planing</h3>
                     <div className='addTime'>
-                        <p>Workout Time: </p>
+                        <p>Workout Time: <span id='addWorkoutTime'>0</span> Seconds</p>
                     </div>
                     <div className='breakTime'>
                         <p>Break Time: </p>
@@ -39,7 +39,7 @@ const Activity = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
