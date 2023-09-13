@@ -1,0 +1,35 @@
+.text-area {
+    width: 90%;
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 40px 66px;
+}
+
+.text-area h3,
+p {
+    padding: 12px;
+}
+
+@media screen and (max-width:480px) {
+    .text-area {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:765px) {
+    .text-area {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 766px) and (max-width:1024px) {
+    .text-area {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1523px) {
+    .text-area {
+        width: 90%;
+    }
+}

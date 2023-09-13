@@ -69,7 +69,7 @@ const Gym = () => {
                     }
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

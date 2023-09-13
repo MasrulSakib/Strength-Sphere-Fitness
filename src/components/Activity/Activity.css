@@ -13,13 +13,14 @@
 
 .inner-activity h3 {
     text-align: center;
+    text-decoration: 2px underline;
 }
 
 .icon-config {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 12px;
+    padding-top: 7px;
 }
 
 .location {
@@ -59,7 +60,7 @@
     height: 88px;
     width: 320px;
     border-radius: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .activity-time button {
@@ -105,7 +106,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 66px 0;
+    margin-top: 44px;
     padding: 0 20px;
     background-color: black;
     color: aliceblue;
