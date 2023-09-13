@@ -1,5 +1,4 @@
 .text-area {
-    width: 92%;
     border-radius: 10px;
     color: aliceblue;
     margin: 40px 66px;
@@ -18,7 +17,9 @@ p {
 
 @media screen and (max-width:480px) {
     .text-area {
-        width: 85%;
+        margin: 40px 0;
+        margin-left: 85px;
+        width: 90%;
     }
 }
 
