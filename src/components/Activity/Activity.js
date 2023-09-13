@@ -6,6 +6,15 @@ import "./Activity.css"
 
 const Activity = (props) => {
 
+    const { elements } = props;
+    console.log(elements);
+
+
+    let total = 0;
+    for (const item of elements) {
+        total = total + parseInt(item.time) * item.quantity;
+    }
+
     return (
         <div className='inner-activity'>
             <h2 >Activity Details</h2>
@@ -45,7 +54,7 @@ const Activity = (props) => {
             <div>
                 <h3>Workout Time Planing</h3>
                 <div className='addTime'>
-                    <p>Workout Time: <span id='addWorkoutTime'>0</span> Seconds</p>
+                    <p>Workout Time: <span id='addWorkoutTime'>{total}</span> Seconds</p>
                 </div>
                 <div className='breakTime'>
                     <p>Break Time: </p>

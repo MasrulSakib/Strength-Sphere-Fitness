@@ -5,6 +5,7 @@
         "age": "25 to 57",
         "name": "Dumbell Curl",
         "time": "45 sec",
+        "quantity": "0",
         "about": "Exercitation ipsum velit anim laboris mollit anim veniam laboris ex Lorem. Cupidatat sunt reprehenderit velit Lorem eiusmod amet dolore dolore culpa aute deserunt ex adipisicing. Ut commodo mollit ullamco exercitation proident. Culpa dolore laborum qui elit duis ut consectetur commodo magna velit consequat.\r\n"
     },
     {
@@ -13,6 +14,7 @@
         "age": "19 to 48",
         "name": "Barbell Curl",
         "time": "50 sec",
+        "quantity": "0",
         "about": "Reprehenderit ea eu nulla nisi. Exercitation est in nostrud magna amet reprehenderit duis excepteur eiusmod. Ex sint aute laboris aliquip. Minim qui voluptate aliquip do esse. Qui duis nostrud ex enim exercitation eu incididunt commodo laborum anim. Minim amet ex dolor exercitation consectetur dolore amet sunt et anim deserunt aliquip in. Aliquip anim laboris quis consequat exercitation consequat nulla proident.\r\n"
     },
     {
@@ -21,6 +23,7 @@
         "age": "18 to 60",
         "name": "Leg Press Machine",
         "time": "60 sec",
+        "quantity": "0",
         "about": "Anim ad adipisicing duis aute nostrud laboris ad. Magna proident eu consequat dolor proident ea occaecat laboris ea Lorem eiusmod aliqua enim labore. Occaecat proident dolor labore laborum mollit sint est qui eu. Laborum veniam eu mollit nostrud amet ea mollit pariatur elit id in incididunt occaecat incididunt. Anim reprehenderit consectetur Lorem dolor irure in officia ut velit amet id labore duis non.\r\n"
     },
     {
@@ -29,6 +32,7 @@
         "age": "25 to 47",
         "name": "Butterfly Machine",
         "time": "55 sec",
+        "quantity": "0",
         "about": "Ex non eu reprehenderit dolore mollit ex et reprehenderit excepteur minim exercitation nostrud qui ullamco. Et deserunt dolore ea enim veniam ullamco consectetur quis commodo occaecat elit consequat cupidatat. Quis irure elit irure est aliqua.\r\n"
     },
     {
@@ -37,6 +41,7 @@
         "age": "20 to 52",
         "name": "Triceps Rope Down",
         "time": "65 sec",
+        "quantity": "0",
         "about": "Qui cupidatat consectetur dolor cupidatat duis esse sit commodo sint. Ea consectetur deserunt sint enim aliqua sint occaecat eiusmod excepteur laborum. Officia culpa proident in voluptate enim. Et elit cupidatat tempor cillum eiusmod aliquip ex minim dolore proident in elit. Duis magna reprehenderit elit ex non cupidatat consequat aliquip cillum esse id incididunt.\r\n"
     },
     {
@@ -45,6 +50,7 @@
         "age": "23 to 45",
         "name": "Dumbell Shoulder Press",
         "time": "30 sec",
+        "quantity": "0",
         "about": "Cillum dolore cillum irure laborum dolore tempor occaecat ea. Minim quis amet fugiat qui ea commodo laboris dolore est sit elit. Dolor officia dolore et incididunt deserunt laborum aliquip. Culpa pariatur ea aute enim veniam sit sunt do proident duis labore non quis ex. Proident commodo qui pariatur qui laboris officia id duis occaecat enim consequat id. Nisi anim duis ipsum velit laboris.\r\n"
     },
     {
@@ -53,6 +59,7 @@
         "age": "20 to 55",
         "name": "Chin-up",
         "time": "45 sec",
+        "quantity": "0",
         "about": "Aliqua reprehenderit dolor consequat adipisicing. Aute ea amet labore magna quis id nisi ut cupidatat aliquip voluptate sunt occaecat. Ipsum sint adipisicing irure exercitation cillum amet est irure eu. Eu sit enim duis commodo commodo.\r\n"
     },
     {
@@ -61,6 +68,7 @@
         "age": "19 to 47",
         "name": "Push-up",
         "time": "60 sec",
+        "quantity": "0",
         "about": "Laborum exercitation enim ut cillum irure ullamco officia consectetur fugiat do laborum anim. Incididunt voluptate do quis sint enim exercitation Lorem deserunt ullamco. Deserunt consectetur eiusmod commodo veniam cupidatat. Ex ullamco aute incididunt voluptate irure magna. Ex occaecat ea Lorem sint eiusmod.\r\n"
     },
     {
@@ -69,6 +77,7 @@
         "age": "19 to 45",
         "name": "Back Deadlift",
         "time": "50 sec",
+        "quantity": "0",
         "about": "Sint deserunt sint ea aliqua esse minim reprehenderit sint culpa. Consectetur culpa sunt excepteur ipsum proident culpa sint voluptate. Aliquip aliqua ut fugiat esse do amet magna sint tempor nisi enim enim amet sunt. Cillum quis Lorem consectetur irure reprehenderit est sit ea anim velit magna adipisicing minim. Laboris dolore laboris eiusmod eiusmod Lorem et. Ea duis officia do qui culpa ad anim.\r\n"
     },
     {
@@ -77,6 +86,7 @@
         "age": "19 to 51",
         "name": "Ez-bar Upright Row",
         "time": "40 sec",
+        "quantity": "0",
         "about": "Id occaecat minim adipisicing magna pariatur voluptate. Reprehenderit aute nostrud voluptate veniam sunt quis est commodo in ad ea et irure. Reprehenderit aute id tempor pariatur. Dolore reprehenderit adipisicing ut ullamco enim eiusmod. Cupidatat enim nisi eiusmod cupidatat consequat pariatur deserunt.\r\n"
     },
     {
@@ -85,6 +95,7 @@
         "age": "18 to 53",
         "name": "Shoulder Press Machine",
         "time": "45 sec",
+        "quantity": "0",
         "about": "Voluptate ullamco nulla tempor aute anim. Officia reprehenderit ex officia fugiat nostrud nostrud tempor sint sit laboris. Consectetur eiusmod ut laborum velit commodo nisi laborum velit excepteur irure aliqua. Mollit amet voluptate veniam voluptate aliquip deserunt do anim.\r\n"
     },
     {
@@ -93,6 +104,7 @@
         "age": "25 to 52",
         "name": "Machine Shrugs",
         "time": "60 sec",
+        "quantity": "0",
         "about": "Ex aute voluptate et sunt irure anim exercitation. Anim ullamco amet ex enim deserunt eu proident. Occaecat occaecat irure sint veniam velit et quis mollit ut anim dolore dolore commodo.\r\n"
     }
 ]
