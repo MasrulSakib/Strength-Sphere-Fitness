@@ -49,13 +49,6 @@ const Gym = () => {
         setElements(newCard);
         addToDb(selectedCard.id);
 
-
-
-
-        // const getWorkoutTime = document.getElementById('addWorkoutTime');
-        // const innerTextField = parseInt(getWorkoutTime.innerText);
-        // const currentTotalTime = innerTextField + parseInt(card.time);
-        // getWorkoutTime.innerText = currentTotalTime;
     }
     return (
         <div className='gym'>

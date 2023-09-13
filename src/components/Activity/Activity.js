@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
@@ -8,6 +8,22 @@ const Activity = (props) => {
 
     const { elements } = props;
     console.log(elements);
+
+    const [breakTime, setBreakTime] = useState(0);
+
+    // Function to handle button clicks
+    const handleButtonClick = (time) => {
+        setBreakTime(time);
+        localStorage.setItem('breakTime', time.toString());
+    };
+
+    // Use useEffect to load data from local storage on component mount
+    useEffect(() => {
+        const storedBreakTime = localStorage.getItem('breakTime');
+        if (storedBreakTime) {
+            setBreakTime(parseInt(storedBreakTime));
+        }
+    }, []);
 
 
     let total = 0;
@@ -44,20 +60,20 @@ const Activity = (props) => {
             <div>
                 <h3>Adjust Your Time</h3>
                 <div className='activity-time'>
-                    <button>10s</button>
-                    <button>15s</button>
-                    <button>20s</button>
-                    <button>25s</button>
-                    <button>30s</button>
+                    <button onClick={() => handleButtonClick(10)}><span>10</span>s</button>
+                    <button onClick={() => handleButtonClick(15)}><span>15</span>s</button>
+                    <button onClick={() => handleButtonClick(20)}><span>20</span>s</button>
+                    <button onClick={() => handleButtonClick(25)}><span>25</span>s</button>
+                    <button onClick={() => handleButtonClick(30)}><span>30</span>s</button>
                 </div>
             </div>
             <div>
                 <h3>Workout Time Planing</h3>
                 <div className='addTime'>
-                    <p>Workout Time: <span id='addWorkoutTime'>{total}</span> Seconds</p>
+                    <p>Workout Time: <span>{total}</span> Seconds</p>
                 </div>
                 <div className='breakTime'>
-                    <p>Break Time: </p>
+                    <p>Break Time: <span>{breakTime}</span> Seconds</p>
                 </div>
 
                 <div className='completed'>
