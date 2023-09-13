@@ -42,7 +42,7 @@
     border: 2px solid black;
 }
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width:480px) {
     .top-gymplan {
         display: flex;
         justify-content: center;

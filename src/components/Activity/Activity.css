@@ -124,7 +124,7 @@
 
 }
 
-@media screen and (max-width: 668px) {
+@media screen and (max-width:480px) {
     .top-inner-items {
         display: flex;
         justify-content: center;

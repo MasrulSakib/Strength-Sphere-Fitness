@@ -17,7 +17,7 @@
     background-color: bisque;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width:480px) {
     .top-div {
         display: flex;
         align-items: center;
@@ -47,4 +47,52 @@
 
     }
 
+}
+
+@media screen and (min-width:481px) and (max-width:765px) {
+    .gym {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .gym-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .activity-container {
+        padding: 0 25px;
+        background-color: bisque;
+    }
+}
+
+@media screen and (min-width: 766px) and (max-width:1024px) {
+    .gym {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .gym-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .activity-container {
+        padding: 0 25px;
+        background-color: bisque;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width:1523px) {
+    .gym {
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .gym-container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .activity-container {
+        padding: 0 25px;
+        background-color: bisque;
+    }
 }
