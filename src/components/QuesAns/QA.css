@@ -1,8 +1,14 @@
 .text-area {
-    width: 90%;
+    width: 92%;
     border-radius: 10px;
     color: aliceblue;
     margin: 40px 66px;
+    text-align: justify;
+}
+
+.top-text {
+    text-align: center;
+    text-decoration: underline;
 }
 
 .text-area h3,
@@ -12,24 +18,24 @@ p {
 
 @media screen and (max-width:480px) {
     .text-area {
-        width: 100%;
+        width: 85%;
     }
 }
 
 @media screen and (min-width:481px) and (max-width:765px) {
     .text-area {
-        width: 90%;
+        width: 85%;
     }
 }
 
 @media screen and (min-width: 766px) and (max-width:1024px) {
     .text-area {
-        width: 90%;
+        width: 85%;
     }
 }
 
 @media screen and (min-width: 1025px) and (max-width:1523px) {
     .text-area {
-        width: 90%;
+        width: 85%;
     }
 }

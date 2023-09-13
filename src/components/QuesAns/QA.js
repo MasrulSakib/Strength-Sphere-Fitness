@@ -4,6 +4,7 @@ const QA = () => {
     return (
         <div>
             <article className='text-area'>
+                <h2 className='top-text'>Some common questions and answers</h2>
                 <h3>1. How does React work?</h3>
                 <p> React works by representing the user interface as a Virtual DOM, a lightweight in-memory copy of the actual DOM. Components, the building blocks of React apps, have their state and receive data via props. When data changes, React efficiently updates the Virtual DOM, compares it to the previous version, and computes the minimal changes required to update the actual DOM. This process, known as reconciliation, ensures fast and efficient UI updates. </p><br />
 

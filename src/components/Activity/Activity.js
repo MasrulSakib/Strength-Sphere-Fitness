@@ -21,7 +21,7 @@ const Activity = (props) => {
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-            theme: "danger",
+            theme: "dark",
         });
         deleteRequiredItems();
         setTimeout(() => {
@@ -109,7 +109,7 @@ const Activity = (props) => {
                             pauseOnFocusLoss
                             draggable
                             pauseOnHover
-                            theme="danger"
+                            theme="dark"
                         />
                         <button className='completed' onClick={() => Notify()}>Workout Complete</button>
                         <ToastContainer />
