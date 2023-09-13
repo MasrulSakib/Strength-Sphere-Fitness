@@ -2,12 +2,33 @@ import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 import "./Activity.css"
+import { deleteRequiredItems } from '../Utilities/fakeDb';
 
 const Activity = (props) => {
 
     const { elements } = props;
     console.log(elements);
+
+    const Notify = () => {
+        toast.success('Congratulations!!! You did it.', {
+            position: "top-center",
+            autoClose: 4000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+        });
+        deleteRequiredItems();
+        setTimeout(() => {
+            window.location.reload();
+        }, 5500);
+
+    }
 
     const [breakTime, setBreakTime] = useState(0);
 
@@ -76,8 +97,21 @@ const Activity = (props) => {
                     <p>Break Time: <span>{breakTime}</span> Seconds</p>
                 </div>
 
-                <div className='completed'>
-                    <h3>Workout Complete</h3>
+                <div >
+                    <ToastContainer
+                        position="top-center"
+                        autoClose={5000}
+                        hideProgressBar={false}
+                        newestOnTop={false}
+                        closeOnClick
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover
+                        theme="dark"
+                    />
+                    <button className='completed bg-success-600' onClick={() => Notify()}>Workout Complete</button>
+                    <ToastContainer />
                 </div>
             </div>
         </div>

@@ -41,6 +41,7 @@ const getRequiredItems = () => {
 // delete local storage completely
 const deleteRequiredItems = () => {
     localStorage.removeItem('required-items');
+    localStorage.removeItem('breakTime');
 }
 
 export {
