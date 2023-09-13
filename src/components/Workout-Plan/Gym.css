@@ -16,3 +16,35 @@
     padding: 0 25px;
     background-color: bisque;
 }
+
+@media screen and (max-width: 680px) {
+    .top-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .gym {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 70px;
+    }
+
+    .gym-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 70px;
+
+    }
+
+    .activity-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 70px;
+        height: 900px;
+        margin-bottom: 50px;
+        border-radius: 8px;
+
+    }
+
+}

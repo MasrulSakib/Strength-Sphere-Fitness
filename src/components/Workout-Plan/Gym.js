@@ -51,21 +51,23 @@ const Gym = () => {
 
     }
     return (
-        <div className='gym'>
-            <div className='gym-container'>
-                {
-                    cards.map(card =>
-                        <GymPlan key={card.id}
-                            card={card}
-                            addListHandler={addListHandler}
-                        >
-                        </GymPlan>)
-                }
-            </div>
-            <div className='activity-container'>
-                {
-                    <Activity elements={elements}></Activity>
-                }
+        <div className='top-div'>
+            <div className='gym'>
+                <div className='gym-container'>
+                    {
+                        cards.map(card =>
+                            <GymPlan key={card.id}
+                                card={card}
+                                addListHandler={addListHandler}
+                            >
+                            </GymPlan>)
+                    }
+                </div>
+                <div className='activity-container'>
+                    {
+                        <Activity elements={elements}></Activity>
+                    }
+                </div>
             </div>
         </div>
     );

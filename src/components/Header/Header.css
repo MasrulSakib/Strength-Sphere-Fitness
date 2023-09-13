@@ -47,3 +47,29 @@
     font-size: 30px;
 
 }
+
+@media screen and (max-width: 668px) {
+
+    .header-container {
+        display: block;
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: center;
+        font-size: medium;
+        margin-bottom: 15px;
+
+    }
+
+    .logo {
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+
+    }
+}

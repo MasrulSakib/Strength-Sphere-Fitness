@@ -5,20 +5,22 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <nav className="header-container">
+        <div className='top-nav-items'>
+            <nav className="header-container">
 
-            <div className='logo'>
-                <p className='logo-type'><FontAwesomeIcon icon={faDumbbell} /></p>
-                <span className="header-text">STRENGTH</span>
-                <span className="header-text2">SPHERE</span>
-            </div>
-            <div>
-                <a href="/home">Home</a>
-                <a href="/about">About</a>
-                <a href="/login">Login</a>
-            </div>
+                <div className='logo'>
+                    <p className='logo-type'><FontAwesomeIcon icon={faDumbbell} /></p>
+                    <span className="header-text">STRENGTH</span>
+                    <span className="header-text2">SPHERE</span>
+                </div>
+                <div className='nav-menu'>
+                    <a href="/home">Home</a>
+                    <a href="/about">About</a>
+                    <a href="/login">Login</a>
+                </div>
 
-        </nav>
+            </nav>
+        </div>
     );
 };
 

@@ -1,7 +1,8 @@
-.inner-activity {
+.top-inner-items {
     position: sticky;
     top: 0;
 }
+
 
 .inner-activity h2 {
 
@@ -120,5 +121,18 @@
     background-color: aliceblue;
     color: black;
 
+
+}
+
+@media screen and (max-width: 668px) {
+    .top-inner-items {
+        display: flex;
+        justify-content: center;
+    }
+
+    .inner-activity {
+        padding: 20px 0;
+
+    }
 
 }

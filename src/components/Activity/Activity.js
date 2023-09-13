@@ -21,7 +21,7 @@ const Activity = (props) => {
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-            theme: "colored",
+            theme: "danger",
         });
         deleteRequiredItems();
         setTimeout(() => {
@@ -53,65 +53,67 @@ const Activity = (props) => {
     }
 
     return (
-        <div className='inner-activity'>
-            <h2 >Activity Details</h2>
-            <div className='icon-config'>
-                <p className='user'><FontAwesomeIcon icon={faCircleUser} size="lg" /> </p>
-                <p>John Rifter</p>
-                <label className='location' htmlFor="location"><FontAwesomeIcon icon={faLocationDot} /> California, USA</label>
-            </div>
+        <div className='top-inner-items'>
+            <div className='inner-activity'>
+                <h2 >Activity Details</h2>
+                <div className='icon-config'>
+                    <p className='user'><FontAwesomeIcon icon={faCircleUser} size="lg" /> </p>
+                    <p>John Rifter</p>
+                    <label className='location' htmlFor="location"><FontAwesomeIcon icon={faLocationDot} /> California, USA</label>
+                </div>
 
-            <div className='user-info'>
+                <div className='user-info'>
+                    <div>
+                        <h3>78kg</h3>
+                        <p className='user-text'>WEIGHT</p>
+                    </div>
+                    <div>
+                        <h3>5'10"</h3>
+                        <p className='user-text'>HEIGHT</p>
+                    </div>
+                    <div>
+                        <h3>27yrs</h3>
+                        <p className='user-text'>AGE</p>
+                    </div>
+
+
+
+                </div>
                 <div>
-                    <h3>78kg</h3>
-                    <p className='user-text'>WEIGHT</p>
+                    <h3>Adjust Your Time</h3>
+                    <div className='activity-time'>
+                        <button onClick={() => handleButtonClick(10)}><span>10</span>s</button>
+                        <button onClick={() => handleButtonClick(15)}><span>15</span>s</button>
+                        <button onClick={() => handleButtonClick(20)}><span>20</span>s</button>
+                        <button onClick={() => handleButtonClick(25)}><span>25</span>s</button>
+                        <button onClick={() => handleButtonClick(30)}><span>30</span>s</button>
+                    </div>
                 </div>
                 <div>
-                    <h3>5'10"</h3>
-                    <p className='user-text'>HEIGHT</p>
-                </div>
-                <div>
-                    <h3>27yrs</h3>
-                    <p className='user-text'>AGE</p>
-                </div>
+                    <h3>Workout Time Planing</h3>
+                    <div className='addTime'>
+                        <p>Workout Time: <span>{total}</span> Seconds</p>
+                    </div>
+                    <div className='breakTime'>
+                        <p>Break Time: <span>{breakTime}</span> Seconds</p>
+                    </div>
 
-
-
-            </div>
-            <div>
-                <h3>Adjust Your Time</h3>
-                <div className='activity-time'>
-                    <button onClick={() => handleButtonClick(10)}><span>10</span>s</button>
-                    <button onClick={() => handleButtonClick(15)}><span>15</span>s</button>
-                    <button onClick={() => handleButtonClick(20)}><span>20</span>s</button>
-                    <button onClick={() => handleButtonClick(25)}><span>25</span>s</button>
-                    <button onClick={() => handleButtonClick(30)}><span>30</span>s</button>
-                </div>
-            </div>
-            <div>
-                <h3>Workout Time Planing</h3>
-                <div className='addTime'>
-                    <p>Workout Time: <span>{total}</span> Seconds</p>
-                </div>
-                <div className='breakTime'>
-                    <p>Break Time: <span>{breakTime}</span> Seconds</p>
-                </div>
-
-                <div >
-                    <ToastContainer
-                        position="top-center"
-                        autoClose={5000}
-                        hideProgressBar={false}
-                        newestOnTop={false}
-                        closeOnClick
-                        rtl={false}
-                        pauseOnFocusLoss
-                        draggable
-                        pauseOnHover
-                        theme="dark"
-                    />
-                    <button className='completed bg-success-600' onClick={() => Notify()}>Workout Complete</button>
-                    <ToastContainer />
+                    <div >
+                        <ToastContainer
+                            position="top-center"
+                            autoClose={5000}
+                            hideProgressBar={false}
+                            newestOnTop={false}
+                            closeOnClick
+                            rtl={false}
+                            pauseOnFocusLoss
+                            draggable
+                            pauseOnHover
+                            theme="danger"
+                        />
+                        <button className='completed' onClick={() => Notify()}>Workout Complete</button>
+                        <ToastContainer />
+                    </div>
                 </div>
             </div>
         </div>
