@@ -6,7 +6,6 @@ import QA from './components/QuesAns/QA';
 
 function App() {
 
-
   return (
     <div className="App">
       < div >

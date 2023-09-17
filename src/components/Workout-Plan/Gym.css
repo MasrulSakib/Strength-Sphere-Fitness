@@ -54,23 +54,34 @@
 
 }
 
-@media screen and (min-width:481px) and (max-width:765px) {
+@media screen and (min-width:481px) and (max-width:768px) {
     .gym {
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .gym-container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
 
     }
 
     .activity-container {
-        padding: 0 40px 25px;
-        background-color: bisque;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: auto;
+        margin-right: 35px;
+        height: 900px;
+        margin-bottom: 50px;
+        border-radius: 8px;
+        padding-bottom: 44px;
+    }
+
+    .top-div {
+        margin-right: 25px;
     }
 }
 
-@media screen and (min-width: 766px) and (max-width:1024px) {
+@media screen and (min-width: 769px) and (max-width:1024px) {
     .gym {
         grid-template-columns: 2fr 1fr;
     }

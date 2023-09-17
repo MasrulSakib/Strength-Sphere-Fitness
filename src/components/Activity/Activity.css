@@ -21,6 +21,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 7px;
+    margin-right: 15px;
 }
 
 .location {
@@ -29,7 +30,11 @@
 
 .user {
     font-size: 25px;
-    margin-right: 8px;
+
+}
+
+user p {
+    margin-right: 20px;
 }
 
 .user-info {
@@ -136,4 +141,26 @@
 
     }
 
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .user-info {
+        width: 450px;
+    }
+
+    .activity-time {
+        width: 450px;
+    }
+
+    .addTime {
+        width: 415px;
+    }
+
+    .breakTime {
+        width: 415px;
+    }
+
+    .completed {
+        width: 455px;
+    }
 }
